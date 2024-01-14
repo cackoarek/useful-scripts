@@ -1,0 +1,3 @@
+## What is this?
+
+Sometimes you need some useful fast scripts for certain purposes...
