@@ -31,8 +31,8 @@ case "$choice" in
         jupyter_spark_script_path="$current_dir/../jupyter-spark_docker_install.sh"
         bash "$jupyter_spark_script_path"
 
-        open_port_script_path="$current_dir/../sub_scripts/open_specific_port_public.sh"
-        bash "$open_port_script_path 8888"
+        open_port_script_path="$current_dir/../sub_scripts/open_specific_port_public.sh 8888"
+        bash "$open_port_script_path"
         ;;
     *)
         echo "Invalid choice. Please enter 1 or 2."
