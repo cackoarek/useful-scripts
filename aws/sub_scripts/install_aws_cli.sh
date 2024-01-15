@@ -1,8 +1,5 @@
 #!/bin/bash
 
-#Zainstaluj aws cli jeśli nie istnieje
-
-
 if command -v aws &> /dev/null; then
     echo "AWS CLI is already installed."
 else
